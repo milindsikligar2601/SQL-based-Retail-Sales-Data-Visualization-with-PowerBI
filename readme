@@ -1,12 +1,4 @@
-This repository contains two major projects completed as part of the **Advanced Data Visualization (CPSC-600)** course:  
-1. **Mastery Check 1:** Retail Sales Data Visualization System  
-2. **Mastery Check 2:** Washington State Electric & Plug-in Hybrid Vehicle Analysis  
-
-Each project demonstrates data visualization, analytical SQL techniques, and dashboard storytelling using Tableau and Power BI.
-
----
-
-📊 Mastery Check 1 — Retail Sales Data Visualization System  
+📊part 1 — Retail Sales Data Visualization System  
 
 📝 Project Overview  
 The **Retail Sales Data Visualization System** is a SQL-driven analytics project designed to analyze, visualize, and interpret retail transaction data. It demonstrates full-cycle data analytics — from relational database design to dashboard visualization — enabling data-informed retail decision-making.
@@ -72,7 +64,7 @@ This system enhances retail analytics by:
 
 ---
 
-⚡ Mastery Check 2 — Washington State Electric & Plug-in Hybrid Vehicle Analysis  
+⚡Part 2 — Washington State Electric & Plug-in Hybrid Vehicle Analysis  
 
 ### 🧾 Dataset  
 **Dataset:** Washington State Electric & Plug-in Hybrid Vehicles  
