@@ -1,0 +1,199 @@
+🧩 Advanced Data Visualization Projects  
+**Course:** CPSC-600 (Advanced Data Visualization)  
+**Institution:** University of Niagara Falls, Canada  
+**Author:** Milind Sikligar  
+
+This repository contains two major projects completed as part of the **Advanced Data Visualization (CPSC-600)** course:  
+1. **Mastery Check 1:** Retail Sales Data Visualization System  
+2. **Mastery Check 2:** Washington State Electric & Plug-in Hybrid Vehicle Analysis  
+
+Each project demonstrates data visualization, analytical SQL techniques, and dashboard storytelling using Tableau and Power BI.
+
+---
+
+📊 Mastery Check 1 — Retail Sales Data Visualization System  
+
+📝 Project Overview  
+The **Retail Sales Data Visualization System** is a SQL-driven analytics project designed to analyze, visualize, and interpret retail transaction data. It demonstrates full-cycle data analytics — from relational database design to dashboard visualization — enabling data-informed retail decision-making.
+
+---
+
+🗂️ Database Design  
+Structured **relational SQL database** with 10 interconnected tables:
+
+- Customers  
+- Products  
+- Stores  
+- Sales Transactions  
+- Employees  
+- Regions  
+- Time Dimensions  
+- Categories  
+- Payments  
+- Discounts  
+
+Each table is normalized up to **Third Normal Form (3NF)**, ensuring data accuracy, referential integrity, and scalability.
+
+---
+
+⚙️ Core Functionalities  
+
+- **Sales Performance Analysis:** Track revenue, profit margins, and best-selling products.  
+- **Customer Insights:** Identify purchase frequency and high-value segments.  
+- **Regional & Time Trends:** Explore seasonal and geographic sales patterns.  
+- **Employee Performance:** Assess sales efficiency by representative or branch.  
+- **Promotion Analysis:** Measure the impact of discounts and payment types on total revenue.  
+
+---
+
+🧠 SQL Implementation  
+
+- **DDL:** Schema creation using `CREATE`, `ALTER`, and `DROP` statements.  
+- **DML:** Data operations with `INSERT`, `UPDATE`, and `DELETE`.  
+- **DQL:** Insight extraction through complex `SELECT`, joins, and aggregations.  
+- **CTEs & Subqueries:** Multi-level analysis (top 5 products, revenue by category).  
+- **Views & Stored Procedures:** Reusable analytics and automated tasks.  
+
+---
+
+📈 Visualization (Power BI / Tableau)  
+
+Key dashboards include:  
+- **Sales Overview:** Revenue trends and category-wise performance.  
+- **Customer Segmentation:** Repeat vs. new customer analysis.  
+- **Regional Analysis:** Store sales by region and time.  
+- **Discount Effectiveness:** Impact of promotions on profits.  
+- **Employee KPIs:** Top performers and efficiency metrics.  
+
+---
+
+🚀 Impact  
+
+This system enhances retail analytics by:  
+- Reducing manual reporting time  
+- Enabling real-time business insights  
+- Supporting decision-making through visual data exploration  
+- Encouraging collaboration via shared BI dashboards  
+
+---
+
+⚡ Mastery Check 2 — Washington State Electric & Plug-in Hybrid Vehicle Analysis  
+
+### 🧾 Dataset  
+**Dataset:** Washington State Electric & Plug-in Hybrid Vehicles  
+**Source:** Washington State Department of Licensing  
+**Tool Used:** Tableau  
+
+---
+
+🧩 Data Dictionary (Key Columns)
+- **VIN (1-10):** First 10 characters of the Vehicle Identification Number  
+- **County / City / State / Postal Code:** Location of registered vehicle owner  
+- **Model Year / Make / Model:** Vehicle details  
+- **Electric Vehicle Type:** BEV (Battery Electric Vehicle) or PHEV (Plug-in Hybrid)  
+- **CAFV Eligibility:** Clean Alternative Fuel Vehicle eligibility  
+- **Electric Range:** Distance the vehicle travels on electric charge  
+- **Base MSRP:** Manufacturer’s Suggested Retail Price  
+- **Legislative District / Electric Utility:** Regional mapping  
+- **2020 Census Tract:** Census-based location ID  
+
+---
+
+🎯 Objectives  
+
+ **1. Descriptive Analysis**
+Gain familiarity with Tableau and build foundational visuals:  
+- Vehicles by **Make**, **Model**, and **Model Year**  
+- **Geographic maps** showing vehicle distribution by City or County  
+- Visualize **Electric Vehicle Type** distribution (BEV vs PHEV)  
+- Highlight **CAFV Eligibility** status counts  
+
+---
+
+**2. Advanced Descriptive Analysis**  
+Identify deeper patterns using calculated fields and comparative visuals.  
+
+**Calculated Fields:**
+- **Electric Range Category:**
+  - Unknown: 0  
+  - Short Range: ≤ 100  
+  - Moderate Range: 101–200  
+  - Long Range: 201–300  
+  - Very Long Range: > 300  
+- **Age Category:**
+  - Recent: ≥ 2020  
+  - Mid-Decade: 2015–2019  
+  - Older: ≤ 2014  
+
+**Visualizations:**
+- Electric Range Category vs. Vehicle Make  
+- MSRP comparison across eligibility and age categories  
+- Scatter chart showing **MSRP vs. Electric Range**  
+
+---
+
+ **3. Diagnostic Analysis**
+Explore *why* certain trends exist using Tableau parameters and filters.  
+
+**Tasks:**
+- Create **filter by vehicle make**  
+- Add **parameter: Minimum Range Threshold**  
+- Enable dynamic dashboard filtering  
+- Highlight **dominant make–range combinations** by region or utility provider  
+- Diagnose regional disparities in clean vehicle adoption (range, age, MSRP)  
+
+---
+
+ **4. Dashboard & Storytelling**
+Compile a cohesive Tableau dashboard and narrative including:  
+- Overview visuals (Activity 1)  
+- Trend analysis (Activity 2)  
+- Diagnostic dashboard with parameters (Activity 3)  
+- Storyboard titled: **“What did we discover and what decisions could this inform?”**
+
+---
+
+ 📊 Key Insights  
+
+- Tesla, Chevrolet, and Nissan dominate in long-range electric models.  
+- Urban counties show higher BEV adoption, influenced by utility availability.  
+- CAFV eligibility correlates with newer models and longer electric ranges.  
+- Higher MSRP vehicles typically have extended electric ranges, showing premium pricing trends.  
+
+---
+
+📂 Files Included  
+
+| File | Description |
+|------|--------------|
+| `Group-10-Mastery Check2.twb` | Tableau workbook for Mastery Check 2 |
+| `Mastery Check-1.twb` | Tableau workbook / Power BI visuals for Mastery Check 1 |
+| `schema.sql` | Database schema design for retail data |
+| `analysis_queries.sql` | Analytical SQL queries |
+| `README.md` | Project documentation |
+
+---
+
+🧠 Tools & Technologies  
+
+- **SQL** (Data modeling & queries)  
+- **Tableau / Power BI** (Visualization)  
+- **Excel / CSV** (Data preparation)  
+- **Calculated Fields & Parameters** (Tableau analytics)  
+
+---
+
+🎓 Learning Outcomes  
+
+- Design normalized relational databases for analytics  
+- Perform descriptive, diagnostic, and predictive analyses  
+- Build interactive BI dashboards with parameters & filters  
+- Communicate data insights through storytelling  
+
+---
+
+🏁 Conclusion  
+
+These two projects together showcase mastery in **data analysis**, **SQL-based modeling**, and **interactive visualization** using Tableau and Power BI — supporting real-world decision-making through visual analytics.
+
+---
