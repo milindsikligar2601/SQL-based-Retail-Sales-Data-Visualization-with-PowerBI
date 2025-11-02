@@ -153,7 +153,7 @@ Compile a cohesive Tableau dashboard and narrative including:
 
 | File | Description |
 |------|--------------|
-| `Group-10-Mastery Check2.twb` | Tableau workbook for Mastery Check 2 |
+| Tableau workbook for Hybrid Vehicle Analysis |
 | `Mastery Check-1.twb` | Tableau workbook / Power BI visuals for Mastery Check 1 |
 | `schema.sql` | Database schema design for retail data |
 | `analysis_queries.sql` | Analytical SQL queries |
